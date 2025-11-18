@@ -756,6 +756,7 @@ body {
 
 .status.open { color: #4ade80; }
 .status.closed { color: #f87171; }
+
 #mascot {
       position: fixed;
       right: 24px;
