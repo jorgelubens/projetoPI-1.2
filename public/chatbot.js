@@ -74,26 +74,29 @@ function responder(txt) {
           3️⃣ **Lojas e Serviços Gerais**: Proximidade de lojas e empresas de serviços como manutenção e reparo.<br>
           Para continuar, me diga sua localização!
         `;
-      } else {
-        // Se o usuário pressionar 1 novamente, repete a mesma resposta
-        return 'Desculpe a gente não desenvolveu esssa parte ainda Agradecimentos empresa BGT.'
-         
-      }
+        
+    } else {
+    // Se o usuário pressionar 1 novamente, repete a mesma resposta
+    return 'Desculpe a gente não desenvolveu esssa parte ainda Agradecimentos empresa BGT.'
+
+  }
     }
     if (t === '2') return 'Você pode entrar em contato conosco através do e-mail: contato@bgtonline.com. Estamos à disposição para ajudar!';
-    
-    if (t === '3') return `Porfavo,  ative sua localização! e digite o nome do local que deseja, que iremos procura-lo para você
-    `
-    return 'Desculpe ainda não está desenvolvido'
-    
-    if (t === '4') return 'Oferecemos serviços de gastronomia, turismo e consultoria empresarial. Caso queira mais detalhes sobre algum serviço específico, posso te ajudar!';
-      
-    return 'Por favor, digite um número de 1 a 4 para selecionar uma opção.';
-  }
 
+
+    if (t === '3') return 'Porfavo,  ative sua localização! e digite o nome do local que deseja, que iremos procura-lo para você';
+
+    else 'Desculpe ainda não está desenvolvido';
+
+    if (t === '4') return 'Oferecemos serviços de gastronomia, turismo e consultoria empresarial. Caso queira mais detalhes sobre algum serviço específico, posso te ajudar!';
+
+    return 'Desculpa, ainda estamos desenvolvendo essa aplicação. Agradecimentos BGT..';
+
+  
+  }
+  
 
   // Caso o usuário tente conversar fora do menu
   return 'Digite "oi" para iniciar uma conversa ou escolha uma das opções de ajuda.';
 }
 
-      
